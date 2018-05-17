@@ -51,6 +51,10 @@ variable "user_data_file" {
   default = "user_data.sh"
 }
 
+variable "user_data_template" {
+  default = ""
+}
+
 variable "s3_bucket_name" {}
 
 variable "s3_bucket_uri" {
