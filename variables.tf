@@ -48,7 +48,7 @@ variable "instance_volume_size_gb" {
 variable "iam_instance_profile" {}
 
 variable "user_data_file" {
-  default = "user_data.sh"
+  default = ""
 }
 
 variable "s3_bucket_name" {}

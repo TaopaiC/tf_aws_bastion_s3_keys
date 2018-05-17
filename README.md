@@ -24,6 +24,7 @@ Only SSH access is allowed to the bastion host.
   * `vpc_id` - VPC where bastion host should be created
   * `subnet_ids` - List of subnet IDs where auto-scaling should create instances
   * `keys_update_frequency` - How often to update keys. A cron timespec or an empty string to turn off (default)
+  * `user_data_file` - The template file for user-data script
   * `additional_user_data_script` - Additional user-data script to run at the end
   * `associate_public_ip_address` - Whether to auto-assign public IP to the instance (by default - `false`)
   * `eip` - EIP to put into EC2 tag (can be used with scripts like https://github.com/skymill/aws-ec2-assign-elastic-ip, default - empty value)
